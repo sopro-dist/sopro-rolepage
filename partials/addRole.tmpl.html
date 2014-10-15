@@ -1,0 +1,16 @@
+<material-dialog>
+  <div>
+    <div class="dialog-content">
+      <material-input id="roleNameInput" type="text" ng-model="roleName" placeholder="Click to add a role name"></material-input>
+    </div>
+    <div class="dialog-actions" layout="horizontal" layout-align="end">
+      <material-button id="closeButton" ng-click="close()">
+        Close
+      </material-button>
+      <material-button id="saveButton" class="material-button-colored" ng-click="createRole(roleName)">
+        Create Role
+      </material-button>
+    </div>
+
+  </div>
+</material-dialog>

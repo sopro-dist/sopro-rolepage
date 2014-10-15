@@ -1,0 +1,45 @@
+::qt_splithandle_.Role Avatar_HTML_Object	{container=':qt_splithandle_.roleCard-0_HTML_Object' innterHTML?='<img src=*' tagName='div'}
+:Container.New tab_QTabWidget	{container=':SocietyPro v*.Container_QSplitter' text='New tab' type='QTabWidget' unnamed='1' visible='1'}
+:Container.qt_tabwidget_stackedwidget_QStackedWidget	{container=':SocietyPro v*.Container_QSplitter' name='qt_tabwidget_stackedwidget' type='QStackedWidget' visible='1'}
+:Container_CloseButton	{container=':SocietyPro v*.Container_QSplitter' type='CloseButton' unnamed='1' visible='1'}
+:Container_QTabBar	{container=':SocietyPro v*.Container_QSplitter' type='QTabBar' unnamed='1' visible='1'}
+:Navigation.Role: *_QToolButton	{container=':SocietyPro v*.Navigation_WNavigationTree' text?='Role: *' type='QToolButton' unnamed='1' visible='1'}
+:Navigation_QTreeWidget	{container=':SocietyPro v*.Navigation Tree_WNavigationTree' type='QTreeWidget' unnamed='1' visible='1'}
+:SocietyPro v*.Container_QSplitter	{name='Container' type='QSplitter' visible='1' window=':SocietyPro v*_WMainWindow'}
+:SocietyPro v*.Message Log_QDockWidget	{name='Message Log' type='QDockWidget' visible='1' window=':SocietyPro v*_WMainWindow' windowTitle='Message Log'}
+:SocietyPro v*.Message Log_QMenu	{aboveWidget=':SocietyPro v*.Message Log_QDockWidget' type='QMenu' unnamed='1' visible='1' window=':SocietyPro v*_WMainWindow'}
+:SocietyPro v*.Navigation Tree_WNavigationTree	{name='Navigation' type='WNavigationTree' visible='1' window=':SocietyPro v*_WMainWindow' windowTitle='Navigation Tree'}
+:SocietyPro v*.Navigation_WNavigationTree	{name='Navigation' type='WNavigationTree' visible='1' window=':SocietyPro v*_WMainWindow' windowTitle='Navigation'}
+:SocietyPro v*.qt_edit_menu_QMenu	{name='qt_edit_menu' type='QMenu' visible='1' window=':SocietyPro v*_WMainWindow'}
+:SocietyPro v*_QMenu	{type='QMenu' unnamed='1' visible='1' window=':SocietyPro v*_WMainWindow'}
+:SocietyPro v*_WMainWindow	{type='WMainWindow' unnamed='1' visible='1' windowTitle?='SocietyPro v*'}
+:TabItem	{container=':Container_QTabBar' text?='*' type='TabItem'}
+:Web Browser_QModelIndex	{column='0' container=':Navigation_QTreeWidget' text='Web Browser' type='QModelIndex'}
+:_QLineEdit	{container=':qt_tabwidget_stackedwidget_WWebViewTabbed' type='QLineEdit' unnamed='1' visible='1'}
+:qt_splithandle_.Add Role_HTML_Object	{container=':qt_splithandle__QWebView' id='addRoleCard' tagName='DIV' title='Add Role' type='HTML_Object'}
+:qt_splithandle_.CLOSE SAVE_HTML_Object	{container=':qt_splithandle__QWebView' innerText='CLOSE SAVE' occurrence='3' tagName='DIV' type='HTML_Object'}
+:qt_splithandle_.Delete Role_HTML_Object	{container=':qt_splithandle__QWebView' innerText='Delete Role' tagName='A' type='HTML_Object'}
+:qt_splithandle_.Overflow Menu_HTML_Object	{container=':qt_splithandle__QWebView' tagName='MATERIAL-BUTTON' title='Overflow Menu' type='HTML_Object'}
+:qt_splithandle_.Role Settings_HTML_Object	{container=':qt_splithandle__QWebView' innerText='Role Settings' tagName='A' type='HTML_Object'}
+:qt_splithandle_.a_HTML_Object	{container=':qt_splithandle__QWebView' innerText='a' tagName='DIV' type='HTML_Object'}
+:qt_splithandle_.appTitle_HTML_Object	{container=':qt_splithandle__QWebView' id='appTitle' tagName='H2' type='HTML_Object'}
+:qt_splithandle_.appToolbar_HTML_Object	{container=':qt_splithandle__QWebView' id='appToolbar' tagName='MATERIAL-TOOLBAR' type='HTML_Object'}
+:qt_splithandle_.bigLogo_HTML_Object	{container=':qt_splithandle__QWebView' id='bigLogo' tagName='DIV' type='HTML_Object'}
+:qt_splithandle_.closeButton_HTML_Object	{container=':qt_splithandle__QWebView' id='closeButton' tagName='MATERIAL-BUTTON' type='HTML_Object'}
+:qt_splithandle_.fab_HTML_Object	{container=':qt_splithandle__QWebView' id='fab' tagName='MATERIAL-BUTTON' type='HTML_Object'}
+:qt_splithandle_.hoverBar-0_HTML_Object	{container=':qt_splithandle__QWebView' id='hoverBar-0' tagName='DIV' type='HTML_Object'}
+:qt_splithandle_.menu-drawer-button_HTML_Object	{container=':qt_splithandle__QWebView' id='menu-drawer-button' tagName='DIV' type='HTML_Object'}
+:qt_splithandle_.overflowMenu-0_HTML_Object	{container=':qt_splithandle__QWebView' id='overflowMenu-0' tagName='MATERIAL-CARD' type='HTML_Object'}
+:qt_splithandle_.overflowMenu_HTML_Object	{container=':qt_splithandle__QWebView' id='overflowMenu' tagName='MATERIAL-CARD' type='HTML_Object'}
+:qt_splithandle_.r_HTML_Object	{container=':qt_splithandle__QWebView' innerText='r' tagName='DIV' type='HTML_Object'}
+:qt_splithandle_.roleAvatar-0_HTML_Object	{container=':qt_splithandle__QWebView' id='roleAvatar-0' tagName='DIV' type='HTML_Object'}
+:qt_splithandle_.roleCard-0_HTML_Object	{container=':qt_splithandle__QWebView' id='roleCard-0' tagName='DIV' type='HTML_Object'}
+:qt_splithandle_.roleDescription-0_HTML_Object	{container=':qt_splithandle__QWebView' id='roleDescription-0' tagName='DIV' type='HTML_Object'}
+:qt_splithandle_.roleName-0_HTML_Object	{container=':qt_splithandle__QWebView' id='roleName-0' tagName='DIV' type='HTML_Object'}
+:qt_splithandle_.roleNameInput_text	{container=':qt_splithandle__QWebView' id='roleNameInput' tagName='INPUT' type='text'}
+:qt_splithandle_.saveButton_HTML_Object	{container=':qt_splithandle__QWebView' id='saveButton' tagName='MATERIAL-BUTTON' type='HTML_Object'}
+:qt_splithandle__QSplitterHandle	{container=':qt_tabwidget_stackedwidget_WWebViewTabbed' name='qt_splithandle_' type='QSplitterHandle' visible='1'}
+:qt_splithandle__QWebView	{aboveWidget=':qt_splithandle__QSplitterHandle' container=':qt_tabwidget_stackedwidget_WWebViewTabbed' type='QWebView' unnamed='1' visible='1'}
+:qt_tabwidget_stackedwidget_WWebViewTabbed	{container=':Container.qt_tabwidget_stackedwidget_QStackedWidget' type='WWebViewTabbed' unnamed='1' visible='1'}
+:{aboveWidget=':qt_splithandle__QSplitterHandle' container=':qt_tabwidget_stackedwidget_WWebViewTabbed' type='QWebView' unnamed='1' visible='1'}.DOCUMENT.HTML1.BODY1.DIV1.DIV1.DIV1.DIV1.DIV2.DIV1.IMG1	{aboveWidget=':qt_splithandle__QSplitterHandle' container=':qt_tabwidget_stackedwidget_WWebViewTabbed' type='QWebView' unnamed='1' visible='1'}.DOCUMENT.HTML1.BODY1.DIV1.DIV1.DIV1.DIV1.DIV2.DIV1.IMG1
+:{aboveWidget=':qt_splithandle__QSplitterHandle' container=':qt_tabwidget_stackedwidget_WWebViewTabbed' type='QWebView' unnamed='1' visible='1'}.DOCUMENT.HTML1.DIV1.MATERIAL-DIALOG1	{aboveWidget=':qt_splithandle__QSplitterHandle' container=':qt_tabwidget_stackedwidget_WWebViewTabbed' type='QWebView' unnamed='1' visible='1'}.DOCUMENT.HTML1.DIV1.MATERIAL-DIALOG1
