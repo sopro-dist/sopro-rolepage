@@ -16,7 +16,6 @@
 .roleCard {
 	width: 200px;
 	float: left;
-	
 }
 
 .roleCard .inner-margin {
@@ -24,7 +23,7 @@
 	background: rgba(0, 0, 0, 0.7);
 	margin-right: 15px;
 	margin-bottom: 15px;
-	height: 300px;
+	 height: 250px; 
 	border: 1px solid rgba(0, 148, 255, 0.3);
 	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 1);
 	-moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 1);
@@ -64,7 +63,7 @@
 	position: absolute;
 	top: inherit;
 	right: -10px;
-	top: 309px;
+	top: 259px;
 	background: rgba(255, 255, 255, 0.8);
 }
 

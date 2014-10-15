@@ -44,10 +44,10 @@ app.directive('ngReallyClick', [function() {
     }
 }]);
 
-app.controller("appCtrl",function ($scope, $materialSidenav, menu){
+app.controller("appCtrl",function ($scope, $materialSidenav, $materialDialog, menu, roleAll, roleDestroy, roleChange){
 
   $scope.menu = menu;
-  $scope.roles = Cambrian.capi.roles.list();
+  $scope.roles = roleAll();
   console.log($scope.roles);
 
   $scope.toggleMenu = function () {
@@ -58,8 +58,52 @@ app.controller("appCtrl",function ($scope, $materialSidenav, menu){
   	role.of = !role.of;
   };
 
-  $scope.destroyRole = function (role) {
-    console.log("hypothetical role hypothetically destroyed");
+  $scope.switchRole = function (roleIndex) {
+    $scope.safeApply(roleChange(roleIndex));
+  };
+
+  $scope.destroyRole = function (roleIndex) {
+    if (roleDestroy(roleIndex)) {
+      $scope.roles.splice(roleIndex, 1);
+    }
+  };
+
+  $scope.$on('roleAdded', function (scope, args) {
+    addNewRole(args.role);
+  });
+
+  $scope.addRoleDialog = function (e) {
+    $materialDialog({
+        templateUrl: 'partials/addRole.tmpl.html',
+        targetEvent: e,
+        controller: ['$scope', '$rootScope', '$hideDialog', 'roleCreate', function ($scope, $rootScope, $hideDialog, roleCreate) {
+        
+          $scope.close = function () {
+            $hideDialog();
+          };
+
+          $scope.createRole = function (roleName) {
+            role = roleCreate(roleName);
+            $rootScope.$broadcast('roleAdded', {role: role});
+            $hideDialog();
+          };
+        }]
+    });
+  };
+
+  $scope.safeApply = function(fn) {
+    var phase = this.$root.$$phase;
+    if(phase == '$apply' || phase == '$digest') {
+      if(fn && (typeof(fn) === 'function')) {
+        fn();
+      }
+    } else {
+      this.$apply(fn);
+    }
+  };
+
+  function addNewRole (role) {
+    $scope.roles.push(role);
   };
 
 });
