@@ -22,6 +22,7 @@
     "angular-animate": "1.3.0-beta.19",
     "angular-route": "1.3.0-beta.19",
     "jquery": "~2.1.1",
-    "sopro-material": "https://github.com/sopro-components/sopro-material.git"
+    "sopro-material": "https://github.com/sopro-components/sopro-material.git",
+    "roboto": "https://github.com/sopro-components/roboto.git#~0.1.0"
   }
 }
